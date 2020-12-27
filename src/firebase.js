@@ -5,7 +5,7 @@ import * as firebaseAdmin from "firebase-admin";
 import serviceAccount from "../config/serviceAccountKey";
 import firebaseConfig from "../config/firebaseConfig";
 
-firebase.initializeApp(firebaseConfig});
+firebase.initializeApp(firebaseConfig);
 
 export const auth = firebase.auth();
 export const provider = new firebase.auth.GoogleAuthProvider();
