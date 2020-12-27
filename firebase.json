@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "virtual-walker-pose-estimate",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
